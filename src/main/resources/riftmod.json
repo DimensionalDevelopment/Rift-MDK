@@ -1,0 +1,10 @@
+{
+    "id": "examlple",
+    "name": "Example",
+    "authors": [
+        ""
+    ],
+    "listeners": [
+        "example.ExampleListener"
+    ]
+}
