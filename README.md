@@ -1,6 +1,6 @@
 # Example Rift mod
 
-This repository contains a minimal Rift project. It's sole purpose is to be used to start new project. 
+This repository contains a minimal Rift project. It's sole purpose is being copied to quickly start a new project. 
 
 ## Files to change
 - `build.gradle`
