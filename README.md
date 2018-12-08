@@ -14,7 +14,7 @@ This repository contains a minimal Rift project. It's sole purpose is being copi
 ## Tasks
 - Development:
     ```sh
-    ./gradlew setupDevWorkspace [eclipse,idea]
+    ./gradlew setupDecompWorkspace [eclipse,idea]
     ```
     After this, import in your IDE as Gradle project.
 
