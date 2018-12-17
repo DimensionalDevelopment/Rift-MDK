@@ -1,6 +1,6 @@
 # Example Rift mod
 
-This repository contains a minimal Rift project. It's sole purpose is being copied to quickly start a new project. 
+This is a minimal Rift project. The only use of it is to be copied to quickly start a new project. 
 
 ## Requirements:
 - OpenJDK 8. Currently Minecraft doesn't support Java 9 and above.
@@ -71,7 +71,7 @@ From there, you'll probably want to change a few things:
         }]
     }
     ```
-    Inner classes use `$`, e.g. `example.Example$InnerClass`. 
+    Inner classes require `$` instead of `.`, e.g. `example.Example$InnerClass`. 
 
 - `pack.mcmeta`
     ```json
@@ -83,7 +83,6 @@ From there, you'll probably want to change a few things:
     }
     ```
     This description is shown at *Select Resource Packs* screen. If mod doesn't have any resources, you can safely delete this file.
-<hr>
 
 ## Examples
 
