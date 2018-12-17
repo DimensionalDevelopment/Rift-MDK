@@ -1,6 +1,6 @@
 # Example Rift mod
 
-This is a minimal Rift project. The only use of it is to be copied to quickly start a new project. 
+This is a minimal Rift project. The only use of it is to be copied to start a new project. 
 
 ## Requirements:
 - OpenJDK 8. Currently Minecraft doesn't support Java 9 and above.
