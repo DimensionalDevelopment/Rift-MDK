@@ -17,6 +17,12 @@ This is a minimal Rift project. The only use of it is to be copied to start a ne
     ./gradlew build
     ```
 
+- Running Server under Eclipse:<br>
+    Open *Launch Configurations*, select *yourmod*\_client, switch to *Arguments* tab, change program arguments from `...Client...` to `...Server...`:
+    ```
+    --tweakClass org.dimdev.riftloader.launch.RiftLoaderServerTweaker
+    ```
+
 ## Getting started
 
 Important files in MDK:
@@ -84,7 +90,21 @@ From there, you'll probably want to change a few things:
     ```
     This description is shown at *Select Resource Packs* screen. If mod doesn't have any resources, you can safely delete this file.
 
-## Examples
+## Snippets
+
+- Changing `src/main/java` to `src` and `src/main/resources` to `resources`:
+    ```gradle
+    sourceSets {
+        main {
+            java {
+                srcDir 'src'
+            }
+            resources {
+                srcDir 'resources'
+            }
+        }
+    }
+    ```
 
 - Simple blocks and items:  
     ```java
